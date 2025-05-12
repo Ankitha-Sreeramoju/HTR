@@ -1,7 +1,1 @@
-## Offline Handwritten Text Recognition (HTR)
-
-Offline Handwritten Text Recognition (HTR) is a critical application of Optical Character Recognition (OCR), aimed at transcribing cursive handwritten text into digital formats such as ASCII or Unicode. This process is essential for digitizing historical records, automating workflows, and enhancing accessibility to handwritten information. The advent of deep learning has significantly advanced the capabilities of HTR systems, enabling them to handle diverse handwriting styles and noisy data more effectively.
-This report explores the development of a linelevel offline HTR system implemented using TensorFlow 2.0. It introduces the building blocks of HTR, reviews stateoftheart models, and presents a novel architecturethe GatedCNNBGRUdesigned to balance accuracy and computational efficiency. By standardizing the use of a uniform charset and decoding method across datasets, the project ensures a fair comparison of different models and highlights the effectiveness of the proposed approach in realworld scenarios.
-The findings demonstrate that the proposed model outperforms traditional architectures in terms of Character Error Rate (CER) and Word Error Rate (WER), while maintaining a compact design suitable for resourceconstrained environments. This research has significant implications for cultural preservation, automation in logistics, and accessibility improvements, paving the way for broader adoption of HTR systems.
-
-
+Started with hand written digit recognition. That can be found in Using_Final.ipynb
